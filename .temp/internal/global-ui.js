@@ -1,5 +1,7 @@
 export default [
   "BackToTop",
   "Sakura",
-  "CursorEffects"
+  "CursorEffects",
+  "Ribbon",
+  "RibbonAnimation"
 ]

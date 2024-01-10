@@ -1,15 +1,102 @@
 ---
+heroText: 后汉书
+tagline: 人生在勤，不索何获。
 home: true
-heroText: 一个分享各类资源的地方
-tagline: 公众号：资料分享大师
-actionText: 查看资源 →
-actionLink: /前端/前端面试
-features:
-- title: 网盘资源
-  details: 所有网盘资源均来自互联网，本网站不生产任何网盘资源，网盘资源是否失效需要自行判断。
-- title: 黑科技软件
-  details: 主要分享一些实用性的工具类、影视类、音乐类等等各种软件，均由互联网大佬提供。
-- title: 教程资源
-  details: 分享各类教程，包括编程、各类证书考试资源等等，本网站所有教程资源均来自互联网，若涉及侵权立马删除！
+heroImageStyle: {
+  maxWidth: '600px',
+  width: '100%',
+  display: block,
+  margin: '9rem auto 2rem',
+  background: '#fff',
+  borderRadius: '1rem',
+}
+bgImage: f.jpg
+bgImageStyle: {
+  height: '1000px',
+}
 ---
+
+
+<style>
+.anchor-down {
+  display: block;
+  margin: 12rem auto 0;
+  bottom: 45px;
+  width: 20px;
+  height: 20px;
+  font-size: 34px;
+  text-align: center;
+  animation: bounce-in 5s 3s infinite;
+  position: absolute;
+  left: 50%;
+  bottom: 30%;
+  margin-left: -10px;
+  cursor: pointer;
+}
+@-webkit-keyframes bounce-in{
+  0%{transform:translateY(0)}
+  20%{transform:translateY(0)}
+  50%{transform:translateY(-20px)}
+  80%{transform:translateY(0)}
+  to{transform:translateY(0)}
+}
+.anchor-down::before {
+  content: "";
+  width: 20px;
+  height: 20px;
+  display: block;
+  border-right: 3px solid #fff;
+  border-top: 3px solid #fff;
+  transform: rotate(135deg);
+  position: absolute;
+  bottom: 10px;
+}
+.anchor-down::after {
+  content: "";
+  width: 20px;
+  height: 20px;
+  display: block;
+  border-right: 3px solid #fff;
+  border-top: 3px solid #fff;
+  transform: rotate(135deg);
+}
+.home-blog .hero {
+  /* background-image: none !important; */
+  color: #fff !important;
+}
+/* .home-blog .hero .anchor-down {
+  z-index: 1000 !important;
+} */
+/* body {
+   background: url('./.vuepress/public/f.jpg') no-repeat center center fixed;
+   background-size: cover;
+} */
+</style>
+
+<script>
+export default {
+  mounted () {
+    const ifJanchor = document.getElementById("JanchorDown"); 
+    ifJanchor && ifJanchor.parentNode.removeChild(ifJanchor);
+    let a = document.createElement('a');
+    a.id = 'JanchorDown';
+    a.className = 'anchor-down';
+    document.getElementsByClassName('hero')[0].append(a);
+    let targetA = document.getElementById("JanchorDown");
+    targetA.addEventListener('click', e => { // 添加点击事件
+      this.scrollFn();
+    })
+  },
+
+  methods: {
+    scrollFn() {
+      const windowH = document.getElementsByClassName('hero')[0].clientHeight; // 获取窗口高度
+      document.documentElement.scrollTop = windowH; // 滚动条滚动到指定位置
+    }
+  }
+}
+</script>
+
+
+
 
