@@ -21,6 +21,38 @@ export const routes = [
     redirect: "/"
   },
   {
+    name: "v-0384a2da",
+    path: "/blogs/1.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-0384a2da").then(next)
+    },
+  },
+  {
+    name: "v-55e3597a",
+    path: "/blogs/2.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-55e3597a").then(next)
+    },
+  },
+  {
+    name: "v-395e7a4c",
+    path: "/blogs/git%E5%B8%B8%E7%94%A8%E6%8C%87%E4%BB%A4.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-395e7a4c").then(next)
+    },
+  },
+  {
+    path: "/blogs/git常用指令.html",
+    redirect: "/blogs/git%E5%B8%B8%E7%94%A8%E6%8C%87%E4%BB%A4.html"
+  },
+  {
+    path: "/blogs/git常用指令.html",
+    redirect: "/blogs/git%E5%B8%B8%E7%94%A8%E6%8C%87%E4%BB%A4.html"
+  },
+  {
     name: "v-4093ff12",
     path: "/%E5%89%8D%E7%AB%AF/%E5%89%8D%E7%AB%AF%E9%9D%A2%E8%AF%95.html",
     component: GlobalLayout,
@@ -35,22 +67,6 @@ export const routes = [
   {
     path: "/前端/前端面试.html",
     redirect: "/%E5%89%8D%E7%AB%AF/%E5%89%8D%E7%AB%AF%E9%9D%A2%E8%AF%95.html"
-  },
-  {
-    name: "v-55e3597a",
-    path: "/blogs/2.html",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-55e3597a").then(next)
-    },
-  },
-  {
-    name: "v-0384a2da",
-    path: "/blogs/1.html",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-0384a2da").then(next)
-    },
   },
   {
     name: "v-b1564aac",
@@ -92,19 +108,6 @@ export const routes = [
     redirect: "/timeline/"
   },
   {
-    name: "v-e8d965c8",
-    path: "/tag/JS/",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Tag", "v-e8d965c8").then(next)
-    },
-    meta: {"pid":"tags","id":"JS"}
-  },
-  {
-    path: "/tag/JS/index.html",
-    redirect: "/tag/JS/"
-  },
-  {
     name: "v-322a45da",
     path: "/tag/vue/",
     component: GlobalLayout,
@@ -118,17 +121,30 @@ export const routes = [
     redirect: "/tag/vue/"
   },
   {
-    name: "v-2bf76980",
-    path: "/categories/随笔/",
+    name: "v-32383f72",
+    path: "/tag/git/",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Category", "v-2bf76980").then(next)
+      ensureAsyncComponentsLoaded("Tag", "v-32383f72").then(next)
     },
-    meta: {"pid":"categories","id":"随笔"}
+    meta: {"pid":"tags","id":"git"}
   },
   {
-    path: "/categories/随笔/index.html",
-    redirect: "/categories/随笔/"
+    path: "/tag/git/index.html",
+    redirect: "/tag/git/"
+  },
+  {
+    name: "v-e8d965c8",
+    path: "/tag/JS/",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Tag", "v-e8d965c8").then(next)
+    },
+    meta: {"pid":"tags","id":"JS"}
+  },
+  {
+    path: "/tag/JS/index.html",
+    redirect: "/tag/JS/"
   },
   {
     name: "v-41e61d1f",
@@ -142,6 +158,19 @@ export const routes = [
   {
     path: "/categories/frontEnd/index.html",
     redirect: "/categories/frontEnd/"
+  },
+  {
+    name: "v-2bf76980",
+    path: "/categories/随笔/",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Category", "v-2bf76980").then(next)
+    },
+    meta: {"pid":"categories","id":"随笔"}
+  },
+  {
+    path: "/categories/随笔/index.html",
+    redirect: "/categories/随笔/"
   },
   {
     path: '*',

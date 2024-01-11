@@ -3,7 +3,8 @@
  */
 export default {
   "v-3851a994": () => import("D:\\知识库\\blogs\\docs\\README.md"),
-  "v-4093ff12": () => import("D:\\知识库\\blogs\\docs\\前端\\前端面试.md"),
+  "v-0384a2da": () => import("D:\\知识库\\blogs\\docs\\blogs\\1.md"),
   "v-55e3597a": () => import("D:\\知识库\\blogs\\docs\\blogs\\2.md"),
-  "v-0384a2da": () => import("D:\\知识库\\blogs\\docs\\blogs\\1.md") 
+  "v-395e7a4c": () => import("D:\\知识库\\blogs\\docs\\blogs\\git常用指令.md"),
+  "v-4093ff12": () => import("D:\\知识库\\blogs\\docs\\前端\\前端面试.md") 
 }

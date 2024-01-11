@@ -3,14 +3,6 @@
  */
 export default {
   "tags": {
-    "JS": {
-      "key": "JS",
-      "scope": "tags",
-      "path": "/tag/JS/",
-      "pageKeys": [
-        "v-4093ff12"
-      ]
-    },
     "vue": {
       "key": "vue",
       "scope": "tags",
@@ -18,23 +10,40 @@ export default {
       "pageKeys": [
         "v-55e3597a"
       ]
+    },
+    "git": {
+      "key": "git",
+      "scope": "tags",
+      "path": "/tag/git/",
+      "pageKeys": [
+        "v-395e7a4c"
+      ]
+    },
+    "JS": {
+      "key": "JS",
+      "scope": "tags",
+      "path": "/tag/JS/",
+      "pageKeys": [
+        "v-4093ff12"
+      ]
     }
   },
   "categories": {
+    "frontEnd": {
+      "key": "frontEnd",
+      "scope": "categories",
+      "path": "/categories/frontEnd/",
+      "pageKeys": [
+        "v-55e3597a",
+        "v-395e7a4c"
+      ]
+    },
     "随笔": {
       "key": "随笔",
       "scope": "categories",
       "path": "/categories/随笔/",
       "pageKeys": [
         "v-4093ff12"
-      ]
-    },
-    "frontEnd": {
-      "key": "frontEnd",
-      "scope": "categories",
-      "path": "/categories/frontEnd/",
-      "pageKeys": [
-        "v-55e3597a"
       ]
     }
   },

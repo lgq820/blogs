@@ -32,26 +32,17 @@ export const siteData = {
       "path": "/"
     },
     {
-      "title": "JS修炼手册",
-      "frontmatter": {
-        "title": "JS修炼手册",
-        "date": "2017-12-28T00:00:00.000Z",
-        "categories": [
-          "随笔"
-        ],
-        "tags": [
-          "JS"
-        ]
-      },
-      "regularPath": "/%E5%89%8D%E7%AB%AF/%E5%89%8D%E7%AB%AF%E9%9D%A2%E8%AF%95.html",
-      "relativePath": "前端/前端面试.md",
-      "key": "v-4093ff12",
-      "path": "/%E5%89%8D%E7%AB%AF/%E5%89%8D%E7%AB%AF%E9%9D%A2%E8%AF%95.html",
+      "title": "1.md 测试",
+      "frontmatter": {},
+      "regularPath": "/blogs/1.html",
+      "relativePath": "blogs/1.md",
+      "key": "v-0384a2da",
+      "path": "/blogs/1.html",
       "headers": [
         {
-          "level": 3,
-          "title": "前端面试题",
-          "slug": "前端面试题"
+          "level": 2,
+          "title": "1.md 测试",
+          "slug": "_1-md-测试"
         }
       ]
     },
@@ -80,17 +71,125 @@ export const siteData = {
       ]
     },
     {
-      "title": "1.md 测试",
-      "frontmatter": {},
-      "regularPath": "/blogs/1.html",
-      "relativePath": "blogs/1.md",
-      "key": "v-0384a2da",
-      "path": "/blogs/1.html",
+      "title": "git常用操作指令",
+      "frontmatter": {
+        "title": "git常用操作指令",
+        "date": "2019-09-28T00:00:00.000Z",
+        "categories": [
+          "frontEnd"
+        ],
+        "tags": [
+          "git"
+        ]
+      },
+      "regularPath": "/blogs/git%E5%B8%B8%E7%94%A8%E6%8C%87%E4%BB%A4.html",
+      "relativePath": "blogs/git常用指令.md",
+      "key": "v-395e7a4c",
+      "path": "/blogs/git%E5%B8%B8%E7%94%A8%E6%8C%87%E4%BB%A4.html",
       "headers": [
         {
-          "level": 2,
-          "title": "1.md 测试",
-          "slug": "_1-md-测试"
+          "level": 3,
+          "title": "1、git config",
+          "slug": "_1、git-config"
+        },
+        {
+          "level": 3,
+          "title": "2、git 生成密钥",
+          "slug": "_2、git-生成密钥"
+        },
+        {
+          "level": 3,
+          "title": "3、git remote",
+          "slug": "_3、git-remote"
+        },
+        {
+          "level": 3,
+          "title": "4、git clone",
+          "slug": "_4、git-clone"
+        },
+        {
+          "level": 3,
+          "title": "5、git branch",
+          "slug": "_5、git-branch"
+        },
+        {
+          "level": 3,
+          "title": "6、git checkout",
+          "slug": "_6、git-checkout"
+        },
+        {
+          "level": 3,
+          "title": "7、 git status 查看工作区和暂存区的状态",
+          "slug": "_7、-git-status-查看工作区和暂存区的状态"
+        },
+        {
+          "level": 3,
+          "title": "8、git add 将工作区的修改添加到暂存区",
+          "slug": "_8、git-add-将工作区的修改添加到暂存区"
+        },
+        {
+          "level": 3,
+          "title": "9、git commit",
+          "slug": "_9、git-commit"
+        },
+        {
+          "level": 3,
+          "title": "10、git pull/push 拉取/提交",
+          "slug": "_10、git-pull-push-拉取-提交"
+        },
+        {
+          "level": 3,
+          "title": "11、git merge 分支合并",
+          "slug": "_11、git-merge-分支合并"
+        },
+        {
+          "level": 3,
+          "title": "12、git stash 本地存储",
+          "slug": "_12、git-stash-本地存储"
+        },
+        {
+          "level": 3,
+          "title": "13、git log 日志过滤",
+          "slug": "_13、git-log-日志过滤"
+        },
+        {
+          "level": 3,
+          "title": "14、git revert 代码撤销",
+          "slug": "_14、git-revert-代码撤销"
+        },
+        {
+          "level": 3,
+          "title": "15、git reset 代码回滚",
+          "slug": "_15、git-reset-代码回滚"
+        },
+        {
+          "level": 3,
+          "title": "16、git tag 版本号管理",
+          "slug": "_16、git-tag-版本号管理"
+        }
+      ]
+    },
+    {
+      "title": "JS修炼手册",
+      "frontmatter": {
+        "title": "JS修炼手册",
+        "date": "2017-12-28T00:00:00.000Z",
+        "categories": [
+          "随笔"
+        ],
+        "tags": [
+          "JS"
+        ]
+      },
+      "regularPath": "/%E5%89%8D%E7%AB%AF/%E5%89%8D%E7%AB%AF%E9%9D%A2%E8%AF%95.html",
+      "relativePath": "前端/前端面试.md",
+      "key": "v-4093ff12",
+      "path": "/%E5%89%8D%E7%AB%AF/%E5%89%8D%E7%AB%AF%E9%9D%A2%E8%AF%95.html",
+      "headers": [
+        {
+          "level": 3,
+          "title": "前端面试题",
+          "slug": "前端面试题"
         }
       ]
     },
@@ -124,15 +223,6 @@ export const siteData = {
     {
       "frontmatter": {
         "layout": "Tag",
-        "title": "JS Tags"
-      },
-      "regularPath": "/tag/JS/",
-      "key": "v-e8d965c8",
-      "path": "/tag/JS/"
-    },
-    {
-      "frontmatter": {
-        "layout": "Tag",
         "title": "vue Tags"
       },
       "regularPath": "/tag/vue/",
@@ -141,12 +231,21 @@ export const siteData = {
     },
     {
       "frontmatter": {
-        "layout": "Category",
-        "title": "随笔 Categories"
+        "layout": "Tag",
+        "title": "git Tags"
       },
-      "regularPath": "/categories/%E9%9A%8F%E7%AC%94/",
-      "key": "v-2bf76980",
-      "path": "/categories/随笔/"
+      "regularPath": "/tag/git/",
+      "key": "v-32383f72",
+      "path": "/tag/git/"
+    },
+    {
+      "frontmatter": {
+        "layout": "Tag",
+        "title": "JS Tags"
+      },
+      "regularPath": "/tag/JS/",
+      "key": "v-e8d965c8",
+      "path": "/tag/JS/"
     },
     {
       "frontmatter": {
@@ -156,6 +255,15 @@ export const siteData = {
       "regularPath": "/categories/frontEnd/",
       "key": "v-41e61d1f",
       "path": "/categories/frontEnd/"
+    },
+    {
+      "frontmatter": {
+        "layout": "Category",
+        "title": "随笔 Categories"
+      },
+      "regularPath": "/categories/%E9%9A%8F%E7%AC%94/",
+      "key": "v-2bf76980",
+      "path": "/categories/随笔/"
     }
   ],
   "themeConfig": {
