@@ -5,4 +5,39 @@
 import sorters from './pageSorters'
 import filters from './pageFilters'
 
-export default []
+export default [{
+  pid: "tags",
+  id: "JS",
+  filter: filters.tags,
+  sorter: sorters.tags,
+  pages: [{"path":"/tag/JS/","interval":[0,1]}],
+  prevText: "Prev",
+  nextText: "Next",
+},
+{
+  pid: "tags",
+  id: "vue",
+  filter: filters.tags,
+  sorter: sorters.tags,
+  pages: [{"path":"/tag/vue/","interval":[0,1]}],
+  prevText: "Prev",
+  nextText: "Next",
+},
+{
+  pid: "categories",
+  id: "随笔",
+  filter: filters.categories,
+  sorter: sorters.categories,
+  pages: [{"path":"/categories/随笔/","interval":[0,1]}],
+  prevText: "Prev",
+  nextText: "Next",
+},
+{
+  pid: "categories",
+  id: "frontEnd",
+  filter: filters.categories,
+  sorter: sorters.categories,
+  pages: [{"path":"/categories/frontEnd/","interval":[0,1]}],
+  prevText: "Prev",
+  nextText: "Next",
+}]

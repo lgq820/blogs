@@ -13,6 +13,16 @@ module.exports = {
     logo: "/avatar.png",
     authorAvatar: "/avatar.png",
     type: "blog",
+    blogConfig: {
+      category: {
+        location: 2,     // 在导航栏菜单中所占的位置，默认2
+        text: '分类' // 默认文案 “分类”
+      },
+      tag: {
+        location: 3,     // 在导航栏菜单中所占的位置，默认3
+        text: '标签'      // 默认文案 “标签”
+      },
+    },
     head: [
       ['meta', { name: 'viewport', content: 'width=device-width,initial-scale=1,user-scalable=no' }]
     ],
@@ -28,6 +38,7 @@ module.exports = {
       },
       { text: 'TimeLine', link: '/timeline/', icon: 'reco-date' }
     ],
+    
   },
   plugins: [
     [

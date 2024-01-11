@@ -8,21 +8,6 @@ export const siteData = {
   "headTags": [],
   "pages": [
     {
-      "title": "1.md 测试",
-      "frontmatter": {},
-      "regularPath": "/blogs/1.html",
-      "relativePath": "blogs/1.md",
-      "key": "v-0384a2da",
-      "path": "/blogs/1.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "1.md 测试",
-          "slug": "_1-md-测试"
-        }
-      ]
-    },
-    {
       "title": "Home",
       "frontmatter": {
         "heroText": "后汉书",
@@ -47,8 +32,41 @@ export const siteData = {
       "path": "/"
     },
     {
-      "title": "这是第二个文件",
-      "frontmatter": {},
+      "title": "JS修炼手册",
+      "frontmatter": {
+        "title": "JS修炼手册",
+        "date": "2017-12-28T00:00:00.000Z",
+        "categories": [
+          "随笔"
+        ],
+        "tags": [
+          "JS"
+        ]
+      },
+      "regularPath": "/%E5%89%8D%E7%AB%AF/%E5%89%8D%E7%AB%AF%E9%9D%A2%E8%AF%95.html",
+      "relativePath": "前端/前端面试.md",
+      "key": "v-4093ff12",
+      "path": "/%E5%89%8D%E7%AB%AF/%E5%89%8D%E7%AB%AF%E9%9D%A2%E8%AF%95.html",
+      "headers": [
+        {
+          "level": 3,
+          "title": "前端面试题",
+          "slug": "前端面试题"
+        }
+      ]
+    },
+    {
+      "title": "【vue】跨域解决方案之proxyTable",
+      "frontmatter": {
+        "title": "【vue】跨域解决方案之proxyTable",
+        "date": "2017-12-28T00:00:00.000Z",
+        "categories": [
+          "frontEnd"
+        ],
+        "tags": [
+          "vue"
+        ]
+      },
       "regularPath": "/blogs/2.html",
       "relativePath": "blogs/2.md",
       "key": "v-55e3597a",
@@ -62,17 +80,17 @@ export const siteData = {
       ]
     },
     {
-      "title": "前端面试题",
+      "title": "1.md 测试",
       "frontmatter": {},
-      "regularPath": "/%E5%89%8D%E7%AB%AF/%E5%89%8D%E7%AB%AF%E9%9D%A2%E8%AF%95.html",
-      "relativePath": "前端/前端面试.md",
-      "key": "v-4093ff12",
-      "path": "/%E5%89%8D%E7%AB%AF/%E5%89%8D%E7%AB%AF%E9%9D%A2%E8%AF%95.html",
+      "regularPath": "/blogs/1.html",
+      "relativePath": "blogs/1.md",
+      "key": "v-0384a2da",
+      "path": "/blogs/1.html",
       "headers": [
         {
-          "level": 3,
-          "title": "前端面试题",
-          "slug": "前端面试题"
+          "level": 2,
+          "title": "1.md 测试",
+          "slug": "_1-md-测试"
         }
       ]
     },
@@ -102,6 +120,42 @@ export const siteData = {
       "regularPath": "/timeline/",
       "key": "v-6319eb4e",
       "path": "/timeline/"
+    },
+    {
+      "frontmatter": {
+        "layout": "Tag",
+        "title": "JS Tags"
+      },
+      "regularPath": "/tag/JS/",
+      "key": "v-e8d965c8",
+      "path": "/tag/JS/"
+    },
+    {
+      "frontmatter": {
+        "layout": "Tag",
+        "title": "vue Tags"
+      },
+      "regularPath": "/tag/vue/",
+      "key": "v-322a45da",
+      "path": "/tag/vue/"
+    },
+    {
+      "frontmatter": {
+        "layout": "Category",
+        "title": "随笔 Categories"
+      },
+      "regularPath": "/categories/%E9%9A%8F%E7%AC%94/",
+      "key": "v-2bf76980",
+      "path": "/categories/随笔/"
+    },
+    {
+      "frontmatter": {
+        "layout": "Category",
+        "title": "frontEnd Categories"
+      },
+      "regularPath": "/categories/frontEnd/",
+      "key": "v-41e61d1f",
+      "path": "/categories/frontEnd/"
     }
   ],
   "themeConfig": {
@@ -109,6 +163,16 @@ export const siteData = {
     "logo": "/avatar.png",
     "authorAvatar": "/avatar.png",
     "type": "blog",
+    "blogConfig": {
+      "category": {
+        "location": 2,
+        "text": "分类"
+      },
+      "tag": {
+        "location": 3,
+        "text": "标签"
+      }
+    },
     "head": [
       [
         "meta",

@@ -9,14 +9,6 @@ import GlobalLayout from "D:\\知识库\\blogs\\node_modules\\@vuepress\\core\\l
 injectComponentOption(GlobalLayout, 'mixins', rootMixins)
 export const routes = [
   {
-    name: "v-0384a2da",
-    path: "/blogs/1.html",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-0384a2da").then(next)
-    },
-  },
-  {
     name: "v-3851a994",
     path: "/",
     component: GlobalLayout,
@@ -27,14 +19,6 @@ export const routes = [
   {
     path: "/index.html",
     redirect: "/"
-  },
-  {
-    name: "v-55e3597a",
-    path: "/blogs/2.html",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-55e3597a").then(next)
-    },
   },
   {
     name: "v-4093ff12",
@@ -51,6 +35,22 @@ export const routes = [
   {
     path: "/前端/前端面试.html",
     redirect: "/%E5%89%8D%E7%AB%AF/%E5%89%8D%E7%AB%AF%E9%9D%A2%E8%AF%95.html"
+  },
+  {
+    name: "v-55e3597a",
+    path: "/blogs/2.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-55e3597a").then(next)
+    },
+  },
+  {
+    name: "v-0384a2da",
+    path: "/blogs/1.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-0384a2da").then(next)
+    },
   },
   {
     name: "v-b1564aac",
@@ -90,6 +90,58 @@ export const routes = [
   {
     path: "/timeline/index.html",
     redirect: "/timeline/"
+  },
+  {
+    name: "v-e8d965c8",
+    path: "/tag/JS/",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Tag", "v-e8d965c8").then(next)
+    },
+    meta: {"pid":"tags","id":"JS"}
+  },
+  {
+    path: "/tag/JS/index.html",
+    redirect: "/tag/JS/"
+  },
+  {
+    name: "v-322a45da",
+    path: "/tag/vue/",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Tag", "v-322a45da").then(next)
+    },
+    meta: {"pid":"tags","id":"vue"}
+  },
+  {
+    path: "/tag/vue/index.html",
+    redirect: "/tag/vue/"
+  },
+  {
+    name: "v-2bf76980",
+    path: "/categories/随笔/",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Category", "v-2bf76980").then(next)
+    },
+    meta: {"pid":"categories","id":"随笔"}
+  },
+  {
+    path: "/categories/随笔/index.html",
+    redirect: "/categories/随笔/"
+  },
+  {
+    name: "v-41e61d1f",
+    path: "/categories/frontEnd/",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Category", "v-41e61d1f").then(next)
+    },
+    meta: {"pid":"categories","id":"frontEnd"}
+  },
+  {
+    path: "/categories/frontEnd/index.html",
+    redirect: "/categories/frontEnd/"
   },
   {
     path: '*',
