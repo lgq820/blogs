@@ -29,12 +29,36 @@ export const routes = [
     },
   },
   {
-    name: "v-55e3597a",
-    path: "/blogs/2.html",
+    name: "v-499d3784",
+    path: "/handle/%E6%89%8B%E5%86%99Promise.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-55e3597a").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-499d3784").then(next)
     },
+  },
+  {
+    path: "/handle/手写Promise.html",
+    redirect: "/handle/%E6%89%8B%E5%86%99Promise.html"
+  },
+  {
+    path: "/handle/手写Promise.html",
+    redirect: "/handle/%E6%89%8B%E5%86%99Promise.html"
+  },
+  {
+    name: "v-540052e4",
+    path: "/blogs/this%E5%85%B3%E9%94%AE%E5%AD%97%E6%80%BB%E7%BB%93.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-540052e4").then(next)
+    },
+  },
+  {
+    path: "/blogs/this关键字总结.html",
+    redirect: "/blogs/this%E5%85%B3%E9%94%AE%E5%AD%97%E6%80%BB%E7%BB%93.html"
+  },
+  {
+    path: "/blogs/this关键字总结.html",
+    redirect: "/blogs/this%E5%85%B3%E9%94%AE%E5%AD%97%E6%80%BB%E7%BB%93.html"
   },
   {
     name: "v-395e7a4c",
@@ -53,20 +77,20 @@ export const routes = [
     redirect: "/blogs/git%E5%B8%B8%E7%94%A8%E6%8C%87%E4%BB%A4.html"
   },
   {
-    name: "v-4093ff12",
-    path: "/%E5%89%8D%E7%AB%AF/%E5%89%8D%E7%AB%AF%E9%9D%A2%E8%AF%95.html",
+    name: "v-3c9a23a8",
+    path: "/handle/%E6%89%8B%E5%86%99call%E3%80%81apply%E3%80%81bind.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-4093ff12").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-3c9a23a8").then(next)
     },
   },
   {
-    path: "/前端/前端面试.html",
-    redirect: "/%E5%89%8D%E7%AB%AF/%E5%89%8D%E7%AB%AF%E9%9D%A2%E8%AF%95.html"
+    path: "/handle/手写call、apply、bind.html",
+    redirect: "/handle/%E6%89%8B%E5%86%99call%E3%80%81apply%E3%80%81bind.html"
   },
   {
-    path: "/前端/前端面试.html",
-    redirect: "/%E5%89%8D%E7%AB%AF/%E5%89%8D%E7%AB%AF%E9%9D%A2%E8%AF%95.html"
+    path: "/handle/手写call、apply、bind.html",
+    redirect: "/handle/%E6%89%8B%E5%86%99call%E3%80%81apply%E3%80%81bind.html"
   },
   {
     name: "v-b1564aac",
@@ -108,17 +132,30 @@ export const routes = [
     redirect: "/timeline/"
   },
   {
-    name: "v-322a45da",
-    path: "/tag/vue/",
+    name: "v-0b58b14a",
+    path: "/tag/手写题/",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Tag", "v-322a45da").then(next)
+      ensureAsyncComponentsLoaded("Tag", "v-0b58b14a").then(next)
     },
-    meta: {"pid":"tags","id":"vue"}
+    meta: {"pid":"tags","id":"手写题"}
   },
   {
-    path: "/tag/vue/index.html",
-    redirect: "/tag/vue/"
+    path: "/tag/手写题/index.html",
+    redirect: "/tag/手写题/"
+  },
+  {
+    name: "v-e8d86dc8",
+    path: "/tag/js/",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Tag", "v-e8d86dc8").then(next)
+    },
+    meta: {"pid":"tags","id":"js"}
+  },
+  {
+    path: "/tag/js/index.html",
+    redirect: "/tag/js/"
   },
   {
     name: "v-32383f72",
@@ -134,17 +171,17 @@ export const routes = [
     redirect: "/tag/git/"
   },
   {
-    name: "v-e8d965c8",
-    path: "/tag/JS/",
+    name: "v-6b2c9986",
+    path: "/categories/手写源码/",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Tag", "v-e8d965c8").then(next)
+      ensureAsyncComponentsLoaded("Category", "v-6b2c9986").then(next)
     },
-    meta: {"pid":"tags","id":"JS"}
+    meta: {"pid":"categories","id":"手写源码"}
   },
   {
-    path: "/tag/JS/index.html",
-    redirect: "/tag/JS/"
+    path: "/categories/手写源码/index.html",
+    redirect: "/categories/手写源码/"
   },
   {
     name: "v-41e61d1f",
@@ -158,19 +195,6 @@ export const routes = [
   {
     path: "/categories/frontEnd/index.html",
     redirect: "/categories/frontEnd/"
-  },
-  {
-    name: "v-2bf76980",
-    path: "/categories/随笔/",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Category", "v-2bf76980").then(next)
-    },
-    meta: {"pid":"categories","id":"随笔"}
-  },
-  {
-    path: "/categories/随笔/index.html",
-    redirect: "/categories/随笔/"
   },
   {
     path: '*',

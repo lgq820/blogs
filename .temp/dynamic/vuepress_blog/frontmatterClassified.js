@@ -3,12 +3,21 @@
  */
 export default {
   "tags": {
-    "vue": {
-      "key": "vue",
+    "手写题": {
+      "key": "手写题",
       "scope": "tags",
-      "path": "/tag/vue/",
+      "path": "/tag/手写题/",
       "pageKeys": [
-        "v-55e3597a"
+        "v-499d3784",
+        "v-3c9a23a8"
+      ]
+    },
+    "js": {
+      "key": "js",
+      "scope": "tags",
+      "path": "/tag/js/",
+      "pageKeys": [
+        "v-540052e4"
       ]
     },
     "git": {
@@ -18,32 +27,25 @@ export default {
       "pageKeys": [
         "v-395e7a4c"
       ]
-    },
-    "JS": {
-      "key": "JS",
-      "scope": "tags",
-      "path": "/tag/JS/",
-      "pageKeys": [
-        "v-4093ff12"
-      ]
     }
   },
   "categories": {
+    "手写源码": {
+      "key": "手写源码",
+      "scope": "categories",
+      "path": "/categories/手写源码/",
+      "pageKeys": [
+        "v-499d3784",
+        "v-3c9a23a8"
+      ]
+    },
     "frontEnd": {
       "key": "frontEnd",
       "scope": "categories",
       "path": "/categories/frontEnd/",
       "pageKeys": [
-        "v-55e3597a",
+        "v-540052e4",
         "v-395e7a4c"
-      ]
-    },
-    "随笔": {
-      "key": "随笔",
-      "scope": "categories",
-      "path": "/categories/随笔/",
-      "pageKeys": [
-        "v-4093ff12"
       ]
     }
   },

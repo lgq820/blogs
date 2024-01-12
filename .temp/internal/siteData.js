@@ -47,26 +47,50 @@ export const siteData = {
       ]
     },
     {
-      "title": "【vue】跨域解决方案之proxyTable",
+      "title": "手写Promise源码",
       "frontmatter": {
-        "title": "【vue】跨域解决方案之proxyTable",
-        "date": "2017-12-28T00:00:00.000Z",
+        "title": "手写Promise源码",
+        "date": "2020-06-21T00:00:00.000Z",
+        "categories": [
+          "手写源码"
+        ],
+        "tags": [
+          "手写题"
+        ]
+      },
+      "regularPath": "/handle/%E6%89%8B%E5%86%99Promise.html",
+      "relativePath": "handle/手写Promise.md",
+      "key": "v-499d3784",
+      "path": "/handle/%E6%89%8B%E5%86%99Promise.html",
+      "headers": [
+        {
+          "level": 3,
+          "title": "完整源码如下：",
+          "slug": "完整源码如下"
+        }
+      ]
+    },
+    {
+      "title": "this关键字总结",
+      "frontmatter": {
+        "title": "this关键字总结",
+        "date": "2020-12-10T00:00:00.000Z",
         "categories": [
           "frontEnd"
         ],
         "tags": [
-          "vue"
+          "js"
         ]
       },
-      "regularPath": "/blogs/2.html",
-      "relativePath": "blogs/2.md",
-      "key": "v-55e3597a",
-      "path": "/blogs/2.html",
+      "regularPath": "/blogs/this%E5%85%B3%E9%94%AE%E5%AD%97%E6%80%BB%E7%BB%93.html",
+      "relativePath": "blogs/this关键字总结.md",
+      "key": "v-540052e4",
+      "path": "/blogs/this%E5%85%B3%E9%94%AE%E5%AD%97%E6%80%BB%E7%BB%93.html",
       "headers": [
         {
-          "level": 2,
-          "title": "这是第二个文件",
-          "slug": "这是第二个文件"
+          "level": 3,
+          "title": "一、this 关键字调用方式",
+          "slug": "一、this-关键字调用方式"
         }
       ]
     },
@@ -170,26 +194,36 @@ export const siteData = {
       ]
     },
     {
-      "title": "JS修炼手册",
+      "title": "手写call、apply、bind",
       "frontmatter": {
-        "title": "JS修炼手册",
-        "date": "2017-12-28T00:00:00.000Z",
+        "title": "手写call、apply、bind",
+        "date": "2020-06-25T00:00:00.000Z",
         "categories": [
-          "随笔"
+          "手写源码"
         ],
         "tags": [
-          "JS"
+          "手写题"
         ]
       },
-      "regularPath": "/%E5%89%8D%E7%AB%AF/%E5%89%8D%E7%AB%AF%E9%9D%A2%E8%AF%95.html",
-      "relativePath": "前端/前端面试.md",
-      "key": "v-4093ff12",
-      "path": "/%E5%89%8D%E7%AB%AF/%E5%89%8D%E7%AB%AF%E9%9D%A2%E8%AF%95.html",
+      "regularPath": "/handle/%E6%89%8B%E5%86%99call%E3%80%81apply%E3%80%81bind.html",
+      "relativePath": "handle/手写call、apply、bind.md",
+      "key": "v-3c9a23a8",
+      "path": "/handle/%E6%89%8B%E5%86%99call%E3%80%81apply%E3%80%81bind.html",
       "headers": [
         {
           "level": 3,
-          "title": "前端面试题",
-          "slug": "前端面试题"
+          "title": "1、手写call",
+          "slug": "_1、手写call"
+        },
+        {
+          "level": 3,
+          "title": "2、手写apply",
+          "slug": "_2、手写apply"
+        },
+        {
+          "level": 3,
+          "title": "3、手写bind",
+          "slug": "_3、手写bind"
         }
       ]
     },
@@ -223,11 +257,20 @@ export const siteData = {
     {
       "frontmatter": {
         "layout": "Tag",
-        "title": "vue Tags"
+        "title": "手写题 Tags"
       },
-      "regularPath": "/tag/vue/",
-      "key": "v-322a45da",
-      "path": "/tag/vue/"
+      "regularPath": "/tag/%E6%89%8B%E5%86%99%E9%A2%98/",
+      "key": "v-0b58b14a",
+      "path": "/tag/手写题/"
+    },
+    {
+      "frontmatter": {
+        "layout": "Tag",
+        "title": "js Tags"
+      },
+      "regularPath": "/tag/js/",
+      "key": "v-e8d86dc8",
+      "path": "/tag/js/"
     },
     {
       "frontmatter": {
@@ -240,12 +283,12 @@ export const siteData = {
     },
     {
       "frontmatter": {
-        "layout": "Tag",
-        "title": "JS Tags"
+        "layout": "Category",
+        "title": "手写源码 Categories"
       },
-      "regularPath": "/tag/JS/",
-      "key": "v-e8d965c8",
-      "path": "/tag/JS/"
+      "regularPath": "/categories/%E6%89%8B%E5%86%99%E6%BA%90%E7%A0%81/",
+      "key": "v-6b2c9986",
+      "path": "/categories/手写源码/"
     },
     {
       "frontmatter": {
@@ -255,15 +298,6 @@ export const siteData = {
       "regularPath": "/categories/frontEnd/",
       "key": "v-41e61d1f",
       "path": "/categories/frontEnd/"
-    },
-    {
-      "frontmatter": {
-        "layout": "Category",
-        "title": "随笔 Categories"
-      },
-      "regularPath": "/categories/%E9%9A%8F%E7%AC%94/",
-      "key": "v-2bf76980",
-      "path": "/categories/随笔/"
     }
   ],
   "themeConfig": {
